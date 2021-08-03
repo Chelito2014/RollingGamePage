@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    font-family: "Muli", sans-serif;
+    background: url("https://www.muycomputer.com/wp-content/uploads/2020/06/jugar-a-Cyberpunk-2077-3.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    margin: 0px;
+  }
+  .error-message {
+    height: calc(100vh-100px);
+    width: 100%;
+  }
+  .error-message-cont {
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 65px;
+    margin: 0px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  .bounce {
+    animation-name: bounce;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 45px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 7  px;
+    }
+  }
+  
